@@ -1,12 +1,40 @@
----
-title: Middleman
----
-
-<div id="home">
-  <div class="home-content">
-    <h1>Middleman is now running!</h1>
-    <p class="about">
-      <%= link_to "Click here to know what we did on this basic template", "about.html" %>
-    </p>
+<div class="container">
+  <hr>
+  <div id="initial-menu">
+    <div class="le-club menu">
+      <a href="">Le Clud du XV</a>
+    </div>
+    <div class="agenda menu">
+      <a href="">Agenda des Matchs</a>
+    </div>
+    <div class="gallerie menu">
+      <a href="">Gallerie</a>
+    </div>
+    <div class="partenaires menu">
+      <a href="">Partenaires</a>
+    </div>
   </div>
+  <hr>
+  <h1 style="font-size: 90px; text-align: center;">Le Club - FFR</h1>
+  <%#= partial 'layouts/carousel' %>
+  <br>
+  <div class="slider">
+    <img src="" alt="" id="slider-image" width="300px">
+    <div class="container">
+    <div class="silder-right">
+      <div class="small-banner" id="sb1">
+        <p id="p1">La Coupe du monde de rugby à XV 2019 a lieu au Japon, du 20 septembre au 2 novembre 20191 . Il s'agit de la neuvième édition de cette compétition disputée tous les quatre ans depuis 1987.</p>
+        <hr>
+      </div>
+      <div class="small-banner" id="sb2">
+        <p id="p2">Ancienne fabrique de vinaigriers transformée en garage puis en bureaux du Coq Sportif et enfin école de Maquillage, il était nécessaire de repenser ces beaux volumes.</p>
+        <hr>
+      </div>
+      <div class="small-banner" id="sb3">
+        <p id="p3">COUPE DU MONDE 2019 - Poules, calendrier, horaires des matches, billetterie, diffusion télé... Retrouvez toutes les infos sur le Mondial 2019 de rugby qui se disputera au Japon du 20 septembre au 2 novembre prochain.</p> 
+      </div>
+    </div>
+    </div>
+  </div>
+  <%#= partial 'images/logo' %>
 </div>
